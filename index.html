@@ -144,7 +144,7 @@
     </div>
 
     <div class="content-wrapper">
-        <h1 id="greeting">Gửi đến em TRANG yêu quý,</h1>
+        <h1 id="greeting">Gửi đến [Tên] yêu quý,</h1>
         <p id="typing-wish"></p>
         <div class="signature">
             From Gemini with love ✨
@@ -158,12 +158,12 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             /* --- Tùy chỉnh tên --- */
-            // Thay đổi "Tên" trong dấu ngoặc kép dưới đây thành tên bạn muốn chúc
-            const name = "Sĩ Tử"; 
+            // Tên đã được sửa thành "Trang"
+            const name = "Trang"; 
             document.getElementById('greeting').textContent = `Gửi đến ${name} yêu quý,`;
 
             /* --- 📝 Lời chúc đánh máy --- */
-            const wishText = `Kỳ thi quan trọng sắp đến rồi, anh biết em đã cố gắng rất nhiều. Hãy tin vào bản thân, giữ một tinh thần thật thoải mái và một cái đầu lạnh nhé.\n\nMọi nỗ lực rồi sẽ được đền đáp xứng đáng. Chúc em bình tĩnh, tự tin, làm bài thật tốt và đạt được kết quả cao nhất! Cố lên! 💪`;
+            const wishText = `Kỳ thi quan trọng sắp đến rồi, mình biết bạn đã cố gắng rất nhiều. Hãy tin vào bản thân, giữ một tinh thần thật thoải mái và một cái đầu lạnh nhé.\n\nMọi nỗ lực rồi sẽ được đền đáp xứng đáng. Chúc bạn bình tĩnh, tự tin, làm bài thật tốt và đạt được kết quả cao nhất! Cố lên! 💪`;
             let i = 0;
             const typingElement = document.getElementById('typing-wish');
             const typingSpeed = 70; // Tốc độ đánh máy (mili giây)
